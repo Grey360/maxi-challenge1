@@ -1,0 +1,98 @@
+html {
+	background: url("images/background.jpg") no-repeat fixed;
+	background-position: center;
+	background-size: 100% auto;
+	text-align: center;
+	margin: 0 auto;
+	height: 1200px;
+  background-color: black;
+}
+.fixedBg {
+  font-family: 'Open Sans', cursive;
+	background: rgba(0,0,0,.5);
+	margin: 0 auto;
+	padding: 4%;
+}
+.fixedBg nav li {
+  display: inline-block;
+	width: 5%;
+}
+.fixedBg nav li a {
+	color: white;
+	text-align: center;
+	font-size: 0.85em;
+	text-decoration: none;
+}
+.fixedBg h1 {
+  padding-top: 5%;
+  margin: 0 auto;
+	color: white;
+	font-size: 5em;
+	font-weight: lighter;
+}
+.fixedBg p {
+  padding: 5%;
+  font-size: 2em;
+  margin: 0 auto;
+	color: white;
+}
+.containerMid {
+  display: flex;
+  direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.containerMid > div {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.colAlbum {
+  display: flex;
+  align-items: center;
+}
+.colAlbum div {
+  display: flex;
+  align-items: center;
+}
+.colAlbum a {
+  text-decoration: none;
+  color: white;
+}
+.colTitles {
+  display: flex;
+  align-items: center;
+}
+.colTitles ol li{
+  text-align: left;
+}
+.threeColDiv {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  color: white;
+  background: black;
+  text-align: left;
+}
+footer {
+  height: 10%;
+  background: black;
+}
+footer div {
+  height: 10%;
+}
+footer i {
+  font-size: 0.70em;
+  color: white;
+}
+footer p {
+  margin: 0;
+  color: white;
+  position: relative;
+  bottom: 0;
+}
+hr {
+  margin: 0 auto;
+  border: 1px solid silver;
+  width: 100%;
+}

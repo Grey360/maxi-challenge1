@@ -1,0 +1,125 @@
+body {
+  background: url("images/background.jpg") no-repeat fixed;
+	background-position: center;
+	background-size: 100% auto;
+	text-align: center;
+	margin: 0 auto;
+	height: 1200px;
+  background-color: black;
+  font-family: 'Open Sans' cursive;
+  color: white;
+  font-weight: lighter;
+}
+.container {
+  background: rgba(0,0,0,.5) fixed;
+  background-size: 100% auto;
+	margin: 0 auto;
+}
+nav {
+  margin: 0 auto;
+  font-family: 'Open Sans', cursive;
+	padding: 4%;
+}
+nav ul li {
+  display: inline-block;
+  min-width: 8%;
+}
+nav ul li a {
+  font-size: 0.75em;
+  text-decoration: none;
+  color: white;
+}
+.container h1 {
+  font-size: 4.5em;
+  font-weight: lighter;
+}
+.container h2 {
+  font-size: 2em;
+  font-weight: lighter;
+}
+hr {
+  width: 80%;
+  border: 1px solid silver;
+  margin: 0 auto;
+}
+.photosDisplay {
+  margin: 5% auto;
+  display: block;
+  height: 60%;
+  width: 80%;
+  border: 1px solid black;
+}
+.topDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.topRightDiv {
+  display: block;
+  width: 50%;
+  margin: 0;
+}
+.grass {
+  min-height: 50%;
+  margin-top: -1%;
+}
+.beachGirl {
+  min-height: 50%;
+  margin-top: -1%;
+}
+.topRightDiv img {
+  width: 100%;
+  border: 1px solid black;
+}
+.topDiv img {
+  width: 100%;
+  border: 1px solid black;
+}
+.midDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.midDiv img {
+  border: 1px solid black;
+}
+.hatGirl {
+  min-width: 42%;
+}
+.hatGirl2 {
+  min-width: 30%;
+}
+.botDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.botDiv img {
+  border: 1px solid black;
+}
+.threeColDiv {
+  margin: 3% auto;
+  width: 85%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  color: white;
+  text-align: left;
+}
+footer {
+  height: 30%;
+}
+footer div {
+  height: 10%;
+}
+footer i {
+  font-size: 0.70em;
+  color: white;
+}
+footer p {
+  margin: 0;
+  color: white;
+  position: relative;
+  bottom: 0;
+}

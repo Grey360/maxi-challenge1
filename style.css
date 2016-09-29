@@ -1,17 +1,21 @@
-body {
-	background: url("images/background.jpg") no-repeat;
+html {
+	background: url("images/background.jpg") no-repeat fixed;
 	background-position: center;
 	background-size: 100% auto;
 	text-align: center;
 	margin: 0 auto;
 	height: 800px;
 }
-nav {
-	width: 100%;
+body {
+
 }
-ul {
+.navbarHomePlayer {
 	margin: 0 auto;
-	width: 900px;
+	width: 80%;
+}
+.navbarBio {
+	margin: 12% auto;
+	width: 80%;
 	display: block;
 }
 ul li {
@@ -19,7 +23,7 @@ ul li {
 	width: 8%;
 }
 ul li a {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: lighter;
 	text-decoration: none;
 	color: white;
@@ -27,31 +31,59 @@ ul li a {
 ul li a:hover {
 	font-weight: bolder;
 }
-#homepage h1 {
-	font-size: 70px;
+#homeplayer h1 {
+	font-size: 5em;
 	font-weight: lighter;
 	margin-top: 20%;
 	color: white;
 	margin-bottom: 0;
 }
 p {
+	margin: 0;
 	font-weight: lighter;
 	font-size: 17px;
 	color: white;
 }
-footer {
+.homePlayerFooter {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	background: black;
-	height: 30px;
 }
-.player audio {
-	width: 100%;
+.player {
 	position: relative;
-	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
-#homepage {
+.player li {
+	height: auto;
+	vertical-align: middle;
+	text-align: center;
+	width: 3%;
+	color: white;
+}
+.player .imgAlbum {
+	background: url("images/album-01.jpg") center;
+}
+.player .fa-step-backward {
+	width: 10%;
+	font-size: 20px;
+}
+.player .fa-play {
+	width: 10%;
+	font-size: 30px;
+}
+.player .fa-step-forward {
+	width: 10%;
+	font-size: 20px;
+}
+.player .titleCurrent {
+	font-size: 12px;
+	width: 40%;
+	text-align: left;
+}
+#homeplayer {
 	padding-top: 5%;
 	font-family: 'Open Sans';
 	background: rgba(0,0,0,.5);
@@ -59,52 +91,108 @@ footer {
 	height: 100%;
 	margin: 0 auto;
 }
+#bio .centerImg {
+	margin-top: 5%;
+}
+.bioObsidian {
+	padding: 5%;
+	font-size: 80px;
+	color: white;
+	font-weight: lighter;
+}
+.bioBio {
+	font-size: 50px;
+	color: white;
+	font-weight: lighter;
+}
+.bioTextBottom {
+	display: flex;
+	direction: row;
+	justify-content: space-around;
+	align-items: stretch;
+	background: black;
+	margin: 0;
+}
+h3 {
+	color: white;
+}
+.aboutObs {
+	display: flex;
+	color: white;
+	align-items: center;
+}
+.vivienneDiv {
+	display: flex;
+	align-items: center;
+}
+.vivienneDiv h3 {
+	color: white;
+}
+.recentPosts {
+	display: flex;
+	align-items: center;
+}
+.recentPosts h3 {
+	color: white;
+}
+.audioThemeFoot {
+}
 #bio {
+	padding-top: 5%;
 	font-family: 'Open Sans';
 	background: rgba(0,0,0,.5);
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
+}
+#bio .navbar {
+	padding-top: 12%;
+}
+#bio .navbar li {
+	width: 9%;
+}
+.bioTextDiv {
+	background: black;
+}
+.footerIcons i {
+}
+.footerIcons li {
+	display: inline-block;
+	width: 5%;
+	color: white;
+}
+.bioDate {
+	color: silver;
+}
+.bioFooter {
+	position: relative;
+	display: block;
+	background: black;
+}
+.bioLine {
+	width: 80%;
+	color: silver;
+	border: 1px solid silver;
+	margin: 0 auto;
+}
+h4 {
+	color: white;
 }
 #videos {
-	font-family: 'Open Sans';
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+
 }
 #photos {
-	font-family: 'Open Sans';
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+
 }
 #music {
-	font-family: 'Open Sans';
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+
 }
 #news {
-	font-family: 'Open Sans';
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+
 }
 #tour {
-	font-family: 'Open Sans';
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+
 }
 #contact {
-	font-family: 'Open Sans';
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+
 }
